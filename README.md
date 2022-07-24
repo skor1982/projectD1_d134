@@ -10,7 +10,7 @@ docker-compose.yml приведен к виду v3, позже добавлен�
 
 docker swarm init --advertise-addr 10.128.0.27 
 
-docker swarm join --token SWMTKN-1-35z9tgjwpg7zdvh2xd9etnqoecpglmuuxudo4loqh5fcsaw5sz-2m2clu3r3k5vto0jv6d02albe 10.128.0.27:2377
+docker swarm join --token SWMTKN-1-token 10.128.0.27:2377
 
 docker node ls
 
